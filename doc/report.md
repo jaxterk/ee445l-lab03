@@ -4,7 +4,7 @@
 - 'Firstname Lastname (eid123)'
 
 Objectives
-==========
+----------
 
 -   What did you do to complete this lab?
 -   What components were you learning about?
@@ -12,7 +12,7 @@ Objectives
 -   Aim for 5-12 bullet points
 
 Preparation Questions
-=====================
+---------------------
 
 -   *Power budget*
 
@@ -39,14 +39,14 @@ Preparation Questions
     def
 
 Hardware Design
-===============
+---------------
 
 // See the readme for info on exporting schematics.
 
 ![image](circuit.svg)
 
 Software Design
-===============
+---------------
 
 // If your call graph is identical to the one in the lab document, delete
 // this section. Otherwise, edit the included call graph image to
@@ -56,35 +56,32 @@ Software Design
 ![image](callgraph.svg)
 
 Measurement Data
-================
+----------------
 
 // Note: image names and extensions should be changed to match your
 files
 
-Power noise
------------
+### Power noise
 
 // O-scope capture of the 5V and 3.3V power coming out of Launchpad
 
 ![image](noise.png)
 
-Speaker output
---------------
+### Speaker output
 
 // O-scope capture of audio signal coming out of speaker pin on
 Launchpad
 
 ![image](speaker.png)
 
-Current measurements
---------------------
+### Current measurements
 
 Without speaker:
 
 With speaker on:
 
 Analysis and Discussion
-=======================
+-----------------------
 
 1.  *Give two ways to remove a critical section.*
 
