@@ -4,7 +4,10 @@ Markdown template is back
 
 ## How to use template
 
+Edit appropriate files, then:
 ```
+git clone https://github.com/jaxterk/ee445l-lab03-template.git
+cd ee445l-lab03-template
 git remote add origin <insert link to git repo, the same one used to clone (without angle brackets)>
 git push -u origin master
 ```
